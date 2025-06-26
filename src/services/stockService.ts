@@ -1,6 +1,6 @@
 import { Stock, PortfolioResponse } from '../types/portfolio';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://eightbit-backend-jdww.onrender.com/api';
 
 // Get portfolio data from backend API
 export const getPortfolioData = async (): Promise<Stock[]> => {
